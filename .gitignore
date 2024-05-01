@@ -5,9 +5,18 @@ __pycache__/
 
 # C extensions
 *.so
-
+#docker
+.docker
 # Distribution / packaging
 .Python
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
+
 build/
 develop-eggs/
 dist/
